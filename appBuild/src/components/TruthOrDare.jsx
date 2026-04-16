@@ -27,13 +27,17 @@ export default function TruthOrDare(){
     const myTruth = () => {
         const randomTruth = truths[Math.floor(Math.random() * truths.length)];
         setInfo(`Truth: ${randomTruth}`);
-    }
-   
+    };
+    const myDare = () => {
+       const randomDare = dares[Math.floor(Math.random() * dares.length)];
+       setInfo(`Dare: ${randomDare}`);
+    };
 //Each button when clicked changes the page//
      return (
        <>
          <div>
            <button onClick={myTruth}>Truth</button>
+           <button onClick={myDare}>Dare</button>
            {info && <p>{info}</p>}
          </div>
        </>
