@@ -4,7 +4,7 @@
 export default function Title({ gameName }){
     return(
         <>
-        <h1>{gameName}</h1>
+        <h1 className="gameCard2">{gameName}</h1>
         </>
     )
 }

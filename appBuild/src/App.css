@@ -1,0 +1,45 @@
+.gameCard{
+  padding: 40px;
+  border-radius: 5px;
+  border: 4px solid navy;
+  margin-top: 40px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
+.gameCard2{
+  padding: 30px;
+  border-radius: 5px;
+  border: 4px solid red;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: navy;
+}
+.gameCard3{
+  padding: 40px;
+  border-radius: 5px;
+  border: 4px solid gray;
+  margin-top: 40px;
+  background-color: navy;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+button{
+  display: flex;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 16px 28px;
+  margin-left: 550px;
+  background-color: red;
+  border: 2px solid black;
+  color: whitesmoke;
+  border-radius: 5px;
+}

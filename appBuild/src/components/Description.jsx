@@ -4,7 +4,7 @@
 export default function Description({ message }){
     return(
         <>
-        <p>{message}</p>
+        <p className="gameCard3">{message}</p>
         </>
     )
 }

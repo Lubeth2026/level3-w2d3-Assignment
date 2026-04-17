@@ -21,8 +21,8 @@ export default function TruthOrDare(){
     ];
     const [info, setInfo] = useState("");
 
-//Random scales the # to size of array//
-//Floor gives a random/# an index between 0 and the last of the array//
+//.Random scales the # to size of array//
+//.Floor gives a random/# an index between 0 and the last of the array//
 //Event Listener//
     const myTruth = () => {
         const randomTruth = truths[Math.floor(Math.random() * truths.length)];
@@ -33,9 +33,10 @@ export default function TruthOrDare(){
        setInfo(`Dare: ${randomDare}`);
     };
 //Each button when clicked changes the page//
+//if Info exists/truthy, then displays the Info wrapped in p tags//
      return (
        <>
-         <div>
+         <div className="gameCard4">
            <button onClick={myTruth}>Truth</button>
            <button onClick={myDare}>Dare</button>
            {info && <p>{info}</p>}

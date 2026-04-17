@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>Week 2 Day 3 Assignment!!</h1>
+      <h1 className="gameCard">Week 2 Day 3 Assignment!!</h1>
       <Title gameName="The Truth or Dare Game"/>
       <Description message="This is a classic, verbal party game for 2 or more players where participants choose between answering a personal question truthfully or performing a DARE."/>
       <TruthOrDare/>
